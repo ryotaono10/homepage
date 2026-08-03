@@ -34,3 +34,5 @@ git push origin main
 The main name is intentionally kept at a moderate size, with the alternate-language name shown beneath it.
 
 Academic degree: Ph.D. in Science / 博士（理学）. Current English affiliation: Japan Atomic Energy Agency, Advanced Science Research Center.
+
+Research profile: https://researchmap.jp/ryota_ono

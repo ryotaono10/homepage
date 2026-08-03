@@ -3,78 +3,330 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ryota Ono's homepage">
-  <title>RYOTA ONO (小野　凌太)</title>
+  <meta name="description" content="Ryota Ono — theoretical condensed-matter physicist working on microscopic models of correlated magnets, multiferroics, and spin supersolids.">
+  <meta name="author" content="Ryota Ono">
+  <title>Ryota Ono | Theoretical Condensed-Matter Physics</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-name" href="#top" aria-label="Go to top">
+        <span>RYOTA ONO</span>
+        <small>小野 凌太</small>
+      </a>
 
-<header class="header">
-  <div class="container">
-    <h1 class="logo">RYOTA ONO<small>（小野凌太）</small></h1>
-    <!-- <nav class="nav-items">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav> -->
-  </div>
-</header>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<main class="main-content">
-  <section class="profile-section">
-    <div class="container">
-      <img src="My_Pic_wan_dev.png" alt="My Picture" width="150" height="200">
-      <h3>Affiliation: Japan Atomic Energy Agency (JAEA), Postdoctoral Researcher </h3>
-      <h3>Office: Advanced Science Research Center Room 323, 2-4 Shirakata, Tokai-mura, Naka-gun, Ibaraki 319-1195, Japan</h3>
-      <h3>Emails: <a href="mailto:ryota.ono.gm@gmail.com">ryota.ono.gm@gmail.com</a>, <a href="mailto:rono.chibau.gm@gmail.com">rono.chibau.gm@gmail.com</a>, <a href="mailto:ono.ryota@jaea.go.jp">ono.ryota@jaea.go.jp</a></h3>
-      <div class="links">
-      <h3><a href="https://scholar.google.co.jp/citations?user=ZHPtC68AAAAJ&hl=ja&oi=ao">Google Scholar</a></h3>
-      <h3><a href="https://orcid.org/0000-0002-1529-3761">ORCID</a></h3>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Theoretical condensed-matter physics</p>
+          <h1>Microscopic models for correlated quantum materials</h1>
+
+          <p class="hero-summary">
+            I study magnetism and magnetoelectric phenomena by connecting realistic
+            electronic-structure models to effective spin, orbital, and polarization
+            Hamiltonians.
+          </p>
+
+          <p class="affiliation">
+            Postdoctoral Fellow, Advanced Science Research Center<br>
+            Japan Atomic Energy Agency (JAEA)
+          </p>
+
+          <div class="topic-list" aria-label="Research topics">
+            <span>Effective Hamiltonians</span>
+            <span>Multiferroics</span>
+            <span>Spin supersolids</span>
+            <span>Correlated magnets</span>
+          </div>
+
+          <div class="button-row">
+            <a class="button primary" href="mailto:ono.ryota@jaea.go.jp">Email</a>
+            <a class="button" href="https://scholar.google.co.jp/citations?user=ZHPtC68AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            <a class="button" href="https://orcid.org/0000-0002-1529-3761" target="_blank" rel="noopener">ORCID</a>
+            <a class="button" href="Ryota_Ono_CV.pdf">CV</a>
+          </div>
+        </div>
+
+        <figure class="portrait-card">
+          <img src="profile_zoom.webp" alt="Portrait of Ryota Ono">
+        </figure>
       </div>
+    </section>
+
+    <section class="section" id="research">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Research</p>
+          <h2>From electronic structure to emergent magnetic phenomena</h2>
+          <p>
+            My work combines first-principles electronic-structure calculations,
+            Wannier-based many-body models, perturbative derivations of low-energy
+            Hamiltonians, and numerical studies of quantum spin systems.
+          </p>
+        </div>
+
+        <div class="research-grid">
+          <article class="research-card">
+            <p class="card-number">01</p>
+            <h3>Microscopic effective models</h3>
+            <p>
+              Construction of realistic Hubbard-type models and derivation of
+              isotropic and anisotropic exchange interactions, including
+              spin–orbit-coupling effects.
+            </p>
+          </article>
+
+          <article class="research-card">
+            <p class="card-number">02</p>
+            <h3>Magnetoelectric coupling</h3>
+            <p>
+              Microscopic theories of magnetically induced polarization and
+              multiferroicity, with an emphasis on the role of atomic orbitals,
+              crystal symmetry, and electronic correlations.
+            </p>
+          </article>
+
+          <article class="research-card">
+            <p class="card-number">03</p>
+            <h3>Quantum spin phases</h3>
+            <p>
+              Effective-model studies of triangular-lattice magnets, spin
+              supersolids, spin–orbit-coupled systems, and finite-temperature
+              magnetic interactions.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section muted-section" id="current-work">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Current directions</p>
+          <h2>Research in progress</h2>
+        </div>
+
+        <div class="current-grid">
+          <article class="feature-card">
+            <p class="feature-label">Spin supersolids</p>
+            <h3>A microscopic design rule for triangular-lattice magnets</h3>
+            <p>
+              Relating trigonal crystal fields, spin–orbit coupling, and XXZ
+              anisotropy in Co-based candidate materials.
+            </p>
+            <a href="https://arxiv.org/abs/2606.06111" target="_blank" rel="noopener">
+              Read the preprint <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <article class="feature-card">
+            <p class="feature-label">Orbital and ferroelectric order</p>
+            <h3>Entangled orders in the p-electron magnet CsO<sub>2</sub></h3>
+            <p>
+              Microscopic modeling of coupled orbital, magnetic, and ferroelectric
+              phenomena in an unconventional molecular magnet.
+            </p>
+            <a href="https://arxiv.org/abs/2411.06671" target="_blank" rel="noopener">
+              Read the preprint <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <article class="feature-card">
+            <p class="feature-label">Finite-temperature magnetism</p>
+            <h3>Magnetic interactions beyond zero temperature</h3>
+            <p>
+              Development of a first-principles framework for finite-temperature
+              magnetic interactions in correlated materials.
+            </p>
+            <span class="status">Under review</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="publications">
+      <div class="container">
+        <div class="section-heading publication-heading">
+          <div>
+            <p class="eyebrow">Publications</p>
+            <h2>Selected work</h2>
+          </div>
+          <a class="text-link" href="https://scholar.google.co.jp/citations?user=ZHPtC68AAAAJ&hl=en" target="_blank" rel="noopener">
+            Full publication list <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="publication-list">
+          <article class="publication">
+            <p class="publication-year">2026</p>
+            <div>
+              <h3>A Microscopic Design Rule for Spin Supersolids in Triangular-Lattice Magnets</h3>
+              <p>R. Ono, J. Ieda, M. Mori, and S. Maekawa</p>
+              <p class="journal">arXiv:2606.06111</p>
+            </div>
+            <a href="https://arxiv.org/abs/2606.06111" target="_blank" rel="noopener" aria-label="Open spin supersolid preprint">↗</a>
+          </article>
+
+          <article class="publication">
+            <p class="publication-year">2024</p>
+            <div>
+              <h3>Ferromagnetic Ferroelectricity due to the Kugel–Khomskii Mechanism of the Orbital Ordering Assisted by Atomic Hund’s Second-Rule Effects</h3>
+              <p>I. Solovyev, R. Ono, and S. Nikolaev</p>
+              <p class="journal">Physical Review B 110, 205116 — Editor’s Suggestion</p>
+            </div>
+            <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.205116" target="_blank" rel="noopener" aria-label="Open Physical Review B paper">↗</a>
+          </article>
+
+          <article class="publication">
+            <p class="publication-year">2024</p>
+            <div>
+              <h3>Multiferroic Kinks and Spin-Flop Transition in Ni<sub>2</sub>InSbO<sub>6</sub> from First Principles</h3>
+              <p>R. Ono, I. Solovyev, and S. Artyukhin</p>
+              <p class="journal">npj Spintronics 2, 17</p>
+            </div>
+            <a href="https://www.nature.com/articles/s44306-024-00020-9" target="_blank" rel="noopener" aria-label="Open npj Spintronics paper">↗</a>
+          </article>
+
+          <article class="publication">
+            <p class="publication-year">2022</p>
+            <div>
+              <h3>Room-Temperature Type-II Multiferroic Phase Induced by Pressure in Cupric Oxide</h3>
+              <p>N. Terada et al., including R. Ono</p>
+              <p class="journal">Physical Review Letters 129, 217601</p>
+            </div>
+            <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.217601" target="_blank" rel="noopener" aria-label="Open Physical Review Letters paper">↗</a>
+          </article>
+
+          <article class="publication">
+            <p class="publication-year">2021</p>
+            <div>
+              <h3>Magnetically Induced Polarization in Centrosymmetric Bonds</h3>
+              <p>I. Solovyev, R. Ono, and S. Nikolaev</p>
+              <p class="journal">Physical Review Letters 127, 187601</p>
+            </div>
+            <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.187601" target="_blank" rel="noopener" aria-label="Open Physical Review Letters paper">↗</a>
+          </article>
+
+          <article class="publication">
+            <p class="publication-year">2020</p>
+            <div>
+              <h3>Fingerprints of Spin-Current Physics on Magnetoelectric Response in the Spin-1/2 Magnet Ba<sub>2</sub>CuGe<sub>2</sub>O<sub>7</sub></h3>
+              <p>R. Ono, S. Nikolaev, and I. Solovyev</p>
+              <p class="journal">Physical Review B 102, 064422</p>
+            </div>
+            <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.064422" target="_blank" rel="noopener" aria-label="Open Physical Review B paper">↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section figure-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Research highlight</p>
+          <h2>Microscopic magnetoelectric response in Ba<sub>2</sub>CuGe<sub>2</sub>O<sub>7</sub></h2>
+          <p>
+            Representative electronic-structure and spin-texture results from work
+            on the microscopic origin of magnetically induced polarization.
+          </p>
+        </div>
+
+        <div class="figure-grid">
+          <figure class="figure-card wide">
+            <img src="BCGO1.png" alt="Electronic band structure and density of states for Ba2CuGe2O7">
+            <figcaption>Electronic structure and low-energy orbital description.</figcaption>
+          </figure>
+
+          <figure class="figure-card">
+            <img src="BCGO.png" alt="Schematic spin texture and induced electric polarization">
+            <figcaption>Spin texture, propagation vector, and polarization response.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section muted-section" id="experience">
+      <div class="container experience-grid">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Academic appointments</h2>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <p class="timeline-date">2025–present</p>
+            <div>
+              <h3>Japan Atomic Energy Agency</h3>
+              <p>Postdoctoral Fellow, Advanced Science Research Center</p>
+            </div>
+          </article>
+
+          <article>
+            <p class="timeline-date">2023–2025</p>
+            <div>
+              <h3>National Institute for Materials Science</h3>
+              <p>JSPS Research Fellow</p>
+            </div>
+          </article>
+
+          <article>
+            <p class="timeline-date">2021–2023</p>
+            <div>
+              <h3>Istituto Italiano di Tecnologia</h3>
+              <p>Postdoctoral Fellow</p>
+            </div>
+          </article>
+
+          <article>
+            <p class="timeline-date">2021</p>
+            <div>
+              <h3>Chiba University</h3>
+              <p>Ph.D. in Materials Science</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-card">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Ryota Ono</h2>
+          <p>
+            Advanced Science Research Center, Room 323<br>
+            Japan Atomic Energy Agency<br>
+            2-4 Shirakata, Tokai-mura, Naka-gun<br>
+            Ibaraki 319-1195, Japan
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:ono.ryota@jaea.go.jp">ono.ryota@jaea.go.jp</a>
+          <a href="mailto:ryota.ono.gm@gmail.com">ryota.ono.gm@gmail.com</a>
+          <a href="tel:+81292825309">+81 29-282-5309</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Ryota Ono</p>
+      <a href="#top">Back to top ↑</a>
     </div>
-  </section>
-
-  <section class="research-section">
-    <div class="container">
-      <h2>Research Interests</h2>
-      <ul>
-        <li>Analytical theory for spin models from first principles</li>
-        <li>Theory for multiferroics</li>
-        <li>Microscopic modeling from first principles</li>
-        <li>Landau theory for phase transitions in magnets</li>
-        <li>Theory for spintronic phenomena</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="selected-work-section">
-    <div class="container">
-      <h2>Selected Work</h2>
-      <ul>
-        <li>Revealed the microscopic mechanism of magnetically induced ferroelectricity in multiferroic Ba<sub>2</sub>CuGe<sub>2</sub>O<sub>7</sub>.</li>
-          <a href="https://arxiv.org/abs/2003.11765">arXiv</a> <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.064422">PhysRevB.102.064422 (2020)</a> 
-          <br>
-          <img src="BCGO1.png" alt="BCGO1" width="220" height="120">
-          <img src="BCGO.png" alt="BCGO" width="150" height="120">
-        <li>Derived a general theory of magnetically induced polarization and showed why it exists even on centrosymmetric bonds.</li>
-          <a href="https://arxiv.org/abs/2104.13711">arXiv</a> <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.187601">PhysRevLett.127.187601 (2021)</a>
-        <li>Predicted room temperature multiferroicity in CuO under pressure.</li>
-          <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.217601">Phys Rev Lett.129.217601 (2022)</a>
-        <li>Prediction of multiferroic kinks and cross-control of magnetoelectric effect in spiral magnets.</li>
-          <a href="https://www.nature.com/articles/s44306-024-00020-9">npj Spintronics 2, 17 (2024)</a>
-        <li>Prediction of ferromagnetic ferroelectricity due to orbital order in layered VI<sub>3</sub> (<b>Editors suggestion</b>).</li>
-          <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.205116">Phys. Rev. B 110, 205116 (2024)</a>
-          <a href="https://physics.aps.org/articles/v17/s131"> Synopsis in APS Physics journal</a>
-      </ul>
-    </div>
-  </section>
-</main>
-
-<footer class="footer">
-  <div class="container">
-    <p>&copy; 2024 Ryota Ono</p>
-  </div>
-</footer>
-
+  </footer>
 </body>
 </html>
